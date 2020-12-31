@@ -3,10 +3,10 @@ def join_nested_strings(src)
   # Combine all Strings present in the AoA into a single value and return it
   
   x = 0
-  temp = ""
+  ans = ""
   src.length.times do
     y = 0
     scr[x].length.times do
-      
+      if scr[x][y] 
   
 end
