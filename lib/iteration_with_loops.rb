@@ -9,7 +9,7 @@ def join_nested_strings(src)
     temp = ""
     src[x].length.times do
       if src[x][y].length > 0
-        temp = src[x][y].join(" ")
+        temp = src[x][y].Join(" ")
       end
       y += 1
     end
