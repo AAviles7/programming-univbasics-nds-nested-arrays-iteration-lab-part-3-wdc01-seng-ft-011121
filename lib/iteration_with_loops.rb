@@ -6,7 +6,15 @@ def join_nested_strings(src)
   ans = ""
   src.length.times do
     y = 0
+    temp = ""
     scr[x].length.times do
-      if scr[x][y] 
+      if scr[x][y].length > 0
+        temp = scr[x][y].join(" ")
+      end
+      y += 1
+    end
+    ans = ans + temp
+    x += 1
+  end
   
 end
