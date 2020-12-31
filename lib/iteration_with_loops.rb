@@ -7,7 +7,7 @@ def join_nested_strings(src)
   src.length.times do
     y = 0
     src[x].length.times do
-      if src[x][y].is_not? Integer
+      if src[x][y].is_a? String
         ans += src[x][y]
       end
       y += 1
