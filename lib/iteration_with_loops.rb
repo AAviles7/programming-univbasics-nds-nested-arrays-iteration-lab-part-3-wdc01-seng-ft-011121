@@ -6,12 +6,10 @@ def join_nested_strings(src)
   ans = ""
   src.length.times do
     y = 0
-    temp = ""
     src[x].length.times do
-      temp = src[x][y].Join(" ")
+      if src[x][y] 
       y += 1
     end
-    ans = ans + temp
     x += 1
   end
   
